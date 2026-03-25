@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Sorry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="playMusic()">
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<div class="stars"></div>
+
+<div class="container">
+
+    <h1 id="text4"></h1>
+
+    <div class="final-box">
+        <h2 class="glow">I'm really sorry Aakansha ❤️</h2>
+        <button onclick="showPopup()" class="btn">One Last Thing 💌</button>
+    </div>
+
+</div>
+
+<!-- POPUP -->
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2>Just one more thing...</h2>
+        <p>You will always be special to me ❤️</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
